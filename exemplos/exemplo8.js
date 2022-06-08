@@ -4,7 +4,13 @@
 
 
 
-function converteValor(valor) {
-    return (valor * 1000)
+let sinal = 'vermelho'
+if (sinal === 'vermelho') {
+    console.log('PARE')
+} else if (sinal === 'amarelo'){
+    console.log('ATENÇÃO')
+} else if (sinal === 'verde'){
+    console.log('PASSE')
+} else {
+    console.log(`${sinal} não está funcionando.`)
 }
-console.log(converteValor(1)+' '+ 'milimetros');
